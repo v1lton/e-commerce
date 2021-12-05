@@ -27,7 +27,7 @@ When Chega às "12hrs"
 Then Os e-mails são enviados pelo sistema
 And Ninguém recebe o email com as promoções
 
-Cenário 4: Envio de anúncio sem produtos cadastrados no sistema e com clientes cadastrados
+Scenario: Envio de anúncio sem produtos cadastrados no sistema e com clientes cadastrados
 Given O sistema está configurado para gerar "3" promoções por dia
 And Não existem produtos cadastrados no banco de dados
 And Não existem promoções cadastradas no sistema
